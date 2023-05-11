@@ -1,0 +1,113 @@
+# User data
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_ca*/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.idea/
+
+# PyInstaller, PyBuilder
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+target/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+/tests/user_data
+
+# Translations, C extensions
+*.mo
+*.pot
+*.so
+
+# Flask/Scrapy.Django stuff:
+instance/
+.webassets-cache
+.scrapy
+scratchpaper.*
+*.log
+local_settings.py
+
+# Sphinx/mkdocs documentation
+docs/_build/
+/site
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# celery beat schedule file, SageMath parsed files
+celerybeat-schedule
+*.sage.py
+
+# virtualenv, pyenv, dotenv
+.venv
+venv/
+ENV/
+.python-version
+.env
+
+# Spyder/Rope project, mypy
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+
+# datajoint, nwb, notes
+dj_local_con*.json
+*nwb
+temp*
+
+# emacs
+**/*~
+**/#*#
+**/.#*
+Diagram.ipynb
+
+# docker
+.env
+*.pem
+docker-compose.yml
+
+# vscode
+.vscode
+
+# temporary figures
+temp_ephys_figures/
+
+example_data
+*.code-workspace
